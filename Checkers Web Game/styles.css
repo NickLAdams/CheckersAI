@@ -1,0 +1,45 @@
+body {
+    background-color: aliceblue;
+}
+
+h {
+    color: black;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, tr{
+    border: 1px solid white;
+    background-color: red;
+    color: aliceblue;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+}
+
+.blackSquare {
+    background-color: black;
+}
+
+.Wdot {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.Bdot {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
