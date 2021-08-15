@@ -1,5 +1,8 @@
 body {
     background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h {
@@ -13,7 +16,7 @@ h {
 }
 
 table, tr{
-    border: 1px solid white;
+    border: 1px solid aliceblue;
     background-color: red;
     color: aliceblue;
 }
